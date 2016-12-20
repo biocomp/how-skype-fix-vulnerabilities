@@ -261,43 +261,43 @@ This time the deleter requested three days to finish the work. Indeed, I was log
 
 ![successful deletion](https://habrastorage.org/files/992/78b/2b5/99278b2b5d2048caad787812a7922eb0.png)
 
-### Общение с техподдержкой Skype
+### Chating with Skype Support
 
-Сразу после блокировки аккаунта я написал в техподдержку Skype. Предположив, что аккаунт был заблокирован старым добрым способом через массовые жалобы, я подробно описал ситуацию.
+As soon as I got banned, I immediately wrote to the Skype Support. Assuming that my account was blocked using well-known trick with mass spam of report messages, I tried to describe it the the person from support.
 
-Оригинал переписки можно посмотреть здесь: telegra.ph/Account-blocked-by-mass-abuse-reporting (Читать сверху вниз)
-Я рекомендую прочитать именно оригинал, чтобы ощутить полностью унижение, которое испытывают невинные жертвы блокировок.
+You can see the original of the conversation here telegra.ph/Account-blocked-by-mass-abuse-reporting (read from top, to bottom).
+I recommend you to read the original to feel all the humiliation the innocent victims are experiencing.
 
-Краткая выдержка из переписки:
+Short recap:
 
 ```
-<Я> Почему мой аккаунт заблокирован? Я предполагаю, что это результат массовых поддельных жалоб. 
+<Me> Why my account is blocked? I think it is the result of massive fake report spam.
 
-<Skype> Наша автоматическая система заблокировала ваш аккаунт за нарушение правил использования Skype.
+<Skype> Our automated system have blocked your account due to violation of Term of Use of Skype.
 
-<Я> Ваша система уязвима, с помощью поддельных жалоб можно заблокировать чужой аккаунт, даже если он не выполняет никаких действий и не нарушает правила. Мой аккаунт был заблокирован именно таким образом. Пожалуйста, проверьте тщательно.
+<Me> You have wholes in the system, anyones account could be blocked with spam of report messages, even if there are no violation of rules. My personal account was banned exactly using this scenario. Could you please double check it?
 
-<Skype> Мы проверили, наша система не ошибается, вы точно нарушили правила. Наша система очень точна, и все действия логируются. Мы точно видим, что вы нарушили правила, ваш аккаунт не будет разблокирован никогда. Если хотите пользоваться скайпом дальше — заводите новый.
+<Skype> We already did the check, our system is perfect and never makes mistakes, we are sure that you had violated the rules. Our system is very precise and all the actions are being tracked, that means that it is definitely your fault, therefor your account will be never unbanned. If you want to continue to use your service, just create new account.
 
-<Я> Ваша система подвержена мошенническим манипуляциям. Вот доказательства.
+<Me> I have an evidences, that your system is vulnerable for spam report attacks.
 
-<Skype> Нет, наша система не ошибается, инфа 100%
+<Skype> No, our system always right, 100% sure.
 
-<Я> Хорошо, назовите мои конкретные действия, которые привели к блокировке.
+<Me> OK, could you please tell me the contrite actions from my account which lead to the blocking?
 
-<Skype> Вы уже описали эти действия в предыдущих письмах. Вы правы насчет причин блокировки.
+<Skype> You have already described the actions in your previous e-mails. You are right, that is the reason why your account was blocked.
 
-<Я> Вы что, сумасшедшие? Получается, вы подтверждаете, что любой аккаунт может быть удален, если злоумышленник отправит достаточное количество жалоб? И вы даже не знаете о причинах этих жалоб? Вы знаете, что эти абузы могут быть отправлены даже без добавления жертвы в контакт-лист. То есть их можно отправить с аккаунта, который никогда даже не общался с тем, на кого он жалуется. Получается, вы фактически подтверждаете существование такой уязвимости. Это вообще законно? Я планирую обратится в суд.
+<Me> Are you crazy? So now you are admitting that anyone could delete any account just by submitting enough reports? Even if you do not know what are the reasons for the report? You know that this abuses could be used even without adding the person to the contact list. So you can send a report from the account which had never had a conversation with the person, who is he reporting. You are admitting that this kind of whole. Is it legal? I am planning to sue you.
 
-<Skype> Мы считаем, что предоставили вам достаточно информации. Вы просто говно и все тут.
+<Skype> We think that we gave enough information. You are peace of shit, live with it.
 
-<Я> Это очень серьезная уязвимость. Я считаю, что вы должны тщательно расследовать ее. У меня достаточно данных для воспроизведения этой уязвимости. Мы можем повторить ее на аккаунте, который вы предоставите, который точно не нарушает правила, и который вы полностью контролируете. Я оплачу удаление этого аккаунта атакующему, и вы сможете расследовать эту проблему.
+<Me> This vulnerability is really serious. I believe that you should thoroughly investigate it. I have enough data to reproduce the vulnerability. We can repeat it in your account, which you provide, which precisely does not violate the rules, and you have complete control. I'll pay for the removal of this account, the attacker, and you will be able to investigate the problem.
 
-<Skype> Мы понимаем, что вы хотите узнать точную причину удаления вашего аккаунта. Мы уже сообщали вам ранее, что наша автоматическая система выявления мудаков очень точна. Так вот, вы — мудак. У нас все записано!
+<Skype> We understand that you want to find out the exact reason for deletion of your account. We have already informed you earlier that our automatic detection assholes very accurate. Now, you - asshole. We have all written!
 
-<Я> Хорошо, что если я хочу сообщить об уязвимости? Вот ее подробное описание…
+<Me> Well, what if I want to report a vulnerability? Here is a detailed description ...
 
-<Skype> Да нам пофиг вообще, идите в суд или полицию.
+<Skype> Yes, we do not care at all, go to court or police.
 ```
 
 ### Resume
@@ -308,7 +308,7 @@ Unfortunately Skype is big bureaucratic machine, which is not able to detect and
 
 In this article I have described only problems which I know. I can assume that there exist much more exploits, which are in use, but I have no clue about them.
 
-It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. [Uber](http://www.foxnews.com/tech/2016/12/13/uber-allegedly-spied-on-users-including-celebrities-like-beyonc.html).
+It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. [Uber](https://www.revealnews.org/article/uber-said-it-protects-you-from-spying-security-sources-say-otherwise/).
 If you think that your lovely messenger is much more secure than Skype, just because the employees are "good guys", you are just fooling yourself.
 People who have infinite access to the user information, could be vulnerable for different kind of pressure, blackmailing or deception. No one is ready to go to the jail or even to give their lives for the safety of users messages. As far as unlimited access exists, there will always be temptation to use this access wrongfully.
 
