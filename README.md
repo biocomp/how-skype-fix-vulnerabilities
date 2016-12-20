@@ -3,11 +3,11 @@
 Translation is not finished yet, screenshot's not translated and text is not reviewed. I will publish when translation is finished and change this badge.
    
 # Не публикуйте этот текст нигде.
-Перевод еще не закончен, не переведены скришоты и текст не проверялся. Я сам опублкую когда будет готово и размещу ссылку на актуальную версию здесь.
+Перевод ещё не закончен, не переведены скриншоты и текст не проверялся. Я сам опубликую когда будет готово и размещу ссылку на актуальную версию здесь.
 
 
 # Message to Contributors/Сообщение тем кто хочет помочь
-Для поддержания организованности перевода и для исключения ситуаций, когда 2 и более людей работают над переводом одного и того же абзаца/главы, пожалуйста, отпишитесь в соответсвующем тикете в разделе Issues.  
+Для поддержания организованности перевода и для исключения ситуаций, когда 2 и более людей работают над переводом одного и того же абзаца/главы, пожалуйста, отпишитесь в соответствующем тикете в разделе Issues.  
 
 # How Skype fixes security vulnerabilities
 
@@ -78,7 +78,7 @@ vk.com/eds_snos
 vk.com/club58649499
 vk.com/club49404483
 
-Similar groups exist within Skype itself. There is a specific subculture <!--- are we sure it's a subculture? --> of abusers, mostly composed of 12-19 years olds, uniting into clans. The main purpose of their actions is to hurt a randomly chosen victim as hard as possible.
+Similar groups exist within Skype itself. There is a specific subculture <!--- are we sure it's a subculture? --> of abusers, mostly composed of 12-19 years old, uniting into clans. The main purpose of their actions is to hurt a randomly chosen victim as hard as possible.
 
 The majority of attacks is conducted via verbal duels in group calls. The aim is to humiliate a person the more painfully the better, and to record it on video.
 
@@ -172,7 +172,7 @@ In several hours after payment, I started receiving letters with Microsoft Secur
 
 I received total of 24 letters in 10 hours. Leaping ahead, let me tell you that attacker successfully guessed the confirmation code.
 
-Here's all secret codes that I received in time of attack, with timestamp of receiving the e-mails.
+Here are all secret codes that I received in time of attack, with timestamp of receiving the e-mails.
 We can see here, that sending was performed with short bursts in few minutes.
 ```
 Microsoft Support Code: 41917837 Fri, 26 Feb 2016 04:25:54 -0800 (PST)
@@ -207,13 +207,13 @@ We had the following info at that time:
 
 * The attacker doesn't know the real e-mail address of account. Taking into consideration last attacks of hacking accounts with known e-mail address, we guessed the same method would be used.
 * The account password is complicated and we excluded the bruteforce.
-* There was no attempts of authorizing with unknown contacts. There also was no activity in Skype client. The attacker never been in contact with the victim.
+* There were no attempts of authorizing with unknown contacts. There also was no activity in Skype client. The attacker has never been in contact with the victim.
 
-We couldn't understand the process of deleting the account. We couldn't find the form that would generate the e-mails with Microsoft Security Code. So the best option we had is to get some information from the hacker. Me and my friends continued to order attacks on test accounts and in one moment, the hacker sends us the screenshot as the confirmation that account has been deleted successfully. On this screenshot, the tech support confirms this information:
+We couldn't understand the process of deleting the account. We couldn't find the form that would generate the e-mails with Microsoft Security Code. So the best option we had is to get some information from the hacker. I and my friends continued to order attacks on test accounts and in one moment, the hacker sends us the screenshot as the confirmation that account has been deleted successfully. On this screenshot, the tech support confirms this information:
 
 ![skype chat support]https://habrastorage.org/getpro/habr/post_images/fec/2ff/787/fec2ff787f245cd7203c7d585371b7a8.png
 
-That was Live Chat Support form, that can be accessed through the account with subscription. You can find it on skype.com website, going through troubleshoot master few times. If you always choose "problem is not solved" option, the last step would give you a confirmation window with live chat prompt.
+That was Live Chat Support form that can be accessed through the account with subscription. You can find it on skype.com website, going through troubleshoot master few times. If you always choose "problem is not solved" option, the last step would give you a confirmation window with live chat prompt.
 
 The chat is opened from https://sales.liveperson.net side domain. The information on the website states that this is side company, which offers tech support for your product.
 
@@ -320,10 +320,10 @@ Microsoft Support Code: 36300450 Sat, 27 Feb 2016 14:58:16 -0800 (PST)
 ### Hey, Microsoft!
 
 It is obvious that the vulnerability exists. Let's report the problem to Skype.
-Such an important vulnerability should be fixed ASAP, shouldn't it ?
+Such an important vulnerability should be fixed ASAP, shouldn't it?
 
 Due to the fact that Skype doesn't have any public contacts for vulnerability reports, I have tried to write on the forum: community.skype.com/t5/Security-Privacy-Trust-and/Vulnerability-allows-to-permanently-delete-any-skype-account-by/td-p/4222445
-There were no reaction, but there emerged another victims of this attack.
+There were no reaction, but there emerged other victims of this attack.
 
 With the help of my friends I was able contact directly with Microsoft employees. I reported them all details about the vulnerability, attached screenshots and code listings. I was then assured that an internal investigation was started. That is Microsoft - a serious company.
 
@@ -334,9 +334,9 @@ I have tried to report to secure@microsoft.com. It is special email for prompt r
 The answer of Microsoft Security Response Center:
 ![skype Microsoft Security Response Center](https://habrastorage.org/getpro/habr/post_images/f3d/4ae/d26/f3d4aed268ea20caf35fe040da0a4806.png)
 
-I kept asking about Microsft internal investigation from their employees. The answer didn't change. It was constantly no. The story was the same for SIX MONTH.
+I kept asking about Microsoft internal investigation from their employees. The answer didn't change. It was constantly no. The story was the same for SIX MONTH.
 
-It was known for sure that hacker provides operator with the code. Sometimes with the second or the third trial. It is a shame but I still don't know all the details of this process. Firstly I have thought that the code is time dependent and thus hacker tries to request as much codes per minute as possible (it could be seen from email timestamps). However I couldn't find a relationship between code and time. It is possible that liveperson.net service was vulnerable.
+It was known for sure that hacker provides operator with the code. Sometimes with the second or the third attempt. It is a shame but I still don't know all the details of this process. Firstly I have thought that the code is time dependent and thus hacker tries to request as much codes per minute as possible (it could be seen from email timestamps). However I couldn't find a relationship between code and time. It is possible that liveperson.net service was vulnerable.
 
 Recently Skype refused liveperson.net service and chatting with support agent now is on microsoft.com domain.
 The procedure of Skype-account deletion cannot be handled by operator anymore. It should be done manually using web-form.
@@ -378,18 +378,18 @@ Aforementioned Skype account deleter's victims contacted me one year after. Emai
 
 Frankly speaking, I'd been fed up with all of this. I'd been tired to implore, eat the dust and beg for fixing the holes during so many months.
 
-As I wrote before, I'd been using Skype for about ten years. My primary account **zhovner** is quite the same old. I felt that it's unfair to witness to other people's sufferring not having walked in the same shoes. Then I decided to conduct an experiment and order the deletion of my own account.
+As I wrote before, I'd been using Skype for about ten years. My primary account **zhovner** is quite the same old. I felt that it's unfair to witness to other people's suffering not having walked in the same shoes. Then I decided to conduct an experiment and order the deletion of my own account.
 
 ![offering the deletion](https://habrastorage.org/files/eef/59b/d97/eef59bd9743046ca9037adae00ee7e23.png)
 
-It costed me ₽2000 (about $30).
+It cost me ₽2000 (about $30).
 This time the deleter requested three days to finish the work. Indeed, I was logged out from Skype in several days and I've been never able to log in back.
 
 ![successful deletion](https://habrastorage.org/files/992/78b/2b5/99278b2b5d2048caad787812a7922eb0.png)
 
-### Chating with Skype Support
+### Chatting with Skype Support
 
-As soon as I got banned, I immediately wrote to the Skype Support. Assuming that my account was blocked using well-known trick with mass spam of report messages, I tried to describe it the the person from support.
+As soon as I got banned, I immediately wrote to the Skype Support. Assuming that my account was blocked using well-known trick with mass spam of report messages, I tried to describe it the person from support.
 
 You can see the original of the conversation here telegra.ph/Account-blocked-by-mass-abuse-reporting (read from top, to bottom).
 I recommend you to read the original to feel all the humiliation the innocent victims are experiencing.
@@ -401,11 +401,11 @@ Short recap:
 
 <Skype> Our automated system have blocked your account due to violation of Term of Use of Skype.
 
-<Me> You have wholes in the system, anyones account could be blocked with spam of report messages, even if there are no violation of rules. My personal account was banned exactly using this scenario. Could you please double check it?
+<Me> You have holes in the system, anyone's account could be blocked with spam of report messages, even if there are no violation of rules. My personal account was banned exactly using this scenario. Could you please double check it?
 
-<Skype> We already did the check, our system is perfect and never makes mistakes, we are sure that you had violated the rules. Our system is very precise and all the actions are being tracked, that means that it is definitely your fault, therefor your account will be never unbanned. If you want to continue to use your service, just create new account.
+<Skype> We already did the check, our system is perfect and never makes mistakes, we are sure that you had violated the rules. Our system is very precise and all the actions are being tracked, that means that it is definitely your fault, therefore your account will be never unbanned. If you want to continue to use your service, just create new account.
 
-<Me> I have an evidences, that your system is vulnerable for spam report attacks.
+<Me> I have evidences that your system is vulnerable for spam report attacks.
 
 <Skype> No, our system always right, 100% sure.
 
@@ -413,7 +413,7 @@ Short recap:
 
 <Skype> You have already described the actions in your previous e-mails. You are right, that is the reason why your account was blocked.
 
-<Me> Are you crazy? So now you are admitting that anyone could delete any account just by submitting enough reports? Even if you do not know what are the reasons for the report? You know that this abuses could be used even without adding the person to the contact list. So you can send a report from the account which had never had a conversation with the person, who is he reporting. You are admitting that this kind of whole. Is it legal? I am planning to sue you.
+<Me> Are you crazy? So now you are admitting that anyone could delete any account just by submitting enough reports? Even if you do not know what are the reasons for the report? You know that these abuses could be used even without adding the person to the contact list. So you can send a report from the account which had never had a conversation with the person, who is he reporting. You are admitting that this kind of whole. Is it legal? I am planning to sue you.
 
 <Skype> We think that we gave enough information. You are peace of shit, live with it.
 
@@ -421,7 +421,7 @@ Short recap:
 
 <Skype> We understand that you want to find out the exact reason for deletion of your account. We have already informed you earlier that our automatic detection assholes very accurate. Now, you - asshole. We have all written!
 
-<Me> Well, what if I want to report a vulnerability? Here is a detailed description ...
+<Me> Well, what if I want to report a vulnerability? Here is a detailed description...
 
 <Skype> Yes, we do not care at all, go to court or police.
 ```
@@ -436,6 +436,6 @@ In this article I have described only problems which I know. I can assume that t
 
 It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. [Uber](https://www.revealnews.org/article/uber-said-it-protects-you-from-spying-security-sources-say-otherwise/).
 If you think that your lovely messenger is much more secure than Skype, just because the employees are "good guys", you are just fooling yourself.
-People who have infinite access to the user information, could be vulnerable for different kind of pressure, blackmailing or deception. No one is ready to go to the jail or even to give their lives for the safety of users messages. As far as unlimited access exists, there will always be temptation to use this access wrongfully.
+People who have infinite access to the user information, could be vulnerable for different kind of pressure, blackmailing or deception. No one is ready to go to the jail or even to give their lives for the safety of users' messages. As far as unlimited access exists, there will always be temptation to use this access wrongfully.
 
-Truly safe messenger must be built on the impossibility of unauthorized access on a level of a specification, but not on a trust to an any group of people.
+Truly safe messenger must be built on the impossibility of unauthorized access on a level of a specification, but not on a trust to any group of people.
