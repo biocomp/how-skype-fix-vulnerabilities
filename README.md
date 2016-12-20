@@ -249,16 +249,16 @@ community.skype.com/t5/Security-Privacy-Trust-and/Vulnerability-allows-to-perman
 <Skype> Да нам пофиг вообще, идите в суд или полицию.
 ```
 
-### Итог
+### Resume
 
-На текущий момент, прошло 15 дней с момента блокировки моего аккаунта. Из переписки с поддержкой видно, что возвращать его не собираются. Но я все-таки рассчитываю его вернуть, и получить извинения от Skype за все унижения, которые мне приходится терпеть, пытаясь сделать их сервис безопаснее.
+It is already 15 days since my Skype account was banned. Out from the chat with support it is clear that nobody is trying to return my account back. I am really looking forward to receive my account back and get regrets from Skype for all the humiliations I need to get through, trying to make their services more secure.
 
-К сожалению, Skype на сегодняшний день — огромная неповоротливая бюрократическая машина, которая из-за своих размеров и плохой организации не способна выявлять и реагировать на проблемы. Я сильно сомневаюсь, что в ближайшее время что-то изменится. 
+Unfortunately Skype is big bureaucratic machine, which is not able to detect and react on the problems in their service due to poor organization, big and complex management structure. I have no doubt that anything will change here in the nearest future.
 
-В статье описаны уязвимости, которые известны лично мне. По опыту, можно предположить, что существует еще огромное число проблем, о которых я просто не знаю, и которые активно эксплуатируются.
+In this article I have described only problems which I know. I can assume that there exist much more exploits, which are in use, but I have no clue about them.
 
-Важно понимать, что таким проблемам подвержен ЛЮБОЙ мессенджер с централизованным управлением, где вся безопасность строится на доверии к администрации. 
-Если вы считаете, что ваш любимый мессенджер более безопасен чем Skype, потому что его сотрудники хорошие ребята, то это большое заблуждение.
-Люди, которые имеют неограниченный доступ к информации всех своих пользователей, могут быть уязвимы к давлению, шантажу или обману. Вряд ли кто-либо готов сидеть в тюрьме или отдать жизнь за сохранность сообщений своих пользователей. И пока существует такой неограниченный доступ, всегда будет соблазн этот доступ использовать неправомерно.
+It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. [Uber](http://www.foxnews.com/tech/2016/12/13/uber-allegedly-spied-on-users-including-celebrities-like-beyonc.html).
+If you think that your lovely messenger is much more secure than Skype, just because the employees are "good guys", you are just fooling yourself.
+People who have infinite access to the user information, could be vulnerable for different kind of pressure, blackmailing or deception. No one is ready to go to the jail or even to give their lives for the safety of users messages. As far as unlimited access exists, there will always be temptation to use this access wrongfully.
 
-По-настоящему безопасный мессенджер должен быть построен не на доверии к какой-то группе людей, а на невозможности неправомерного доступа к информации на уровне спецификации.
+Truly safe messenger must be built on the impossibility of unauthorized access on a level of a specification, but not on a trust to an any group of people.
