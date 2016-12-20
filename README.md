@@ -243,20 +243,20 @@ community.skype.com/t5/Security-Privacy-Trust-and/Vulnerability-allows-to-perman
 
 Наверное, тут вы подумаете, что уязвимость закрыта. Как бы не так.
 
-### Эксперимент — умереть за ваши грехи
+### Experiment: I'll die in your sins
 
-Спустя год после описанных выше событий, ко мне снова обратились жертвы нашего удалятора скайпов. Теперь письма с Security Code не приходили, очевидно был найден другой способ. 
+Aforementioned Skype account deleter's victims contacted me one year after. Emails with Security Code were not sent this time, a new way was apparently found. 
 
-Признаться, мне вся эта история уже порядком надоела. Я устал умолять, унижаться и выпрашивать исправить уязвимости по многу месяцев.
+Frankly speaking, I'd been fed up with all of this. I'd been tired to implore, eat the dust and beg for fixing the holes during so many months.
 
-Как я уже говорил, я пользуюсь скайпом около десяти лет. Моему основному аккаунту **zhovner** примерно столько же. Мне показалось, что будет нечестно только смотреть на страдания других людей, не пережив этого самому. Тогда я решил провести эксперимент и заказать сразу удаление своего аккаунта.
+As I wrote before, I'd been using Skype for about ten years. My primary account **zhovner** is quite the same old. I felt that it's unfair to witness to other people's sufferring not having walked in the same shoes. Then I decided to conduct an experiment and offer the deletion of my own account.
 
-![заказ удаления](https://habrastorage.org/files/eef/59b/d97/eef59bd9743046ca9037adae00ee7e23.png)
+![offering the deletion](https://habrastorage.org/files/eef/59b/d97/eef59bd9743046ca9037adae00ee7e23.png)
 
-Стоимость работ — 2 тысячи рублей (примерно $30).
-На этот раз удалятор обозначил три дня на выполнение работы. И действительно, через несколько дней меня разлогинило из скайпа, и больше я не мог в него войти. 
+It costed me ₽2000 (about $30).
+This time the deleter requested three days to finish the work. Indeed, I was logged out from Skype in several days and I've been never able to log in back.
 
-![успешное удаление](https://habrastorage.org/files/992/78b/2b5/99278b2b5d2048caad787812a7922eb0.png)
+![successful deletion](https://habrastorage.org/files/992/78b/2b5/99278b2b5d2048caad787812a7922eb0.png)
 
 ### Общение с техподдержкой Skype
 
