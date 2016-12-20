@@ -129,6 +129,97 @@ www.youtube.com/watch?v=zWhCcqTnjxw
 
 Угадайте, исправлена ли эта уязвимость на текущий момент? Конечно же нет!
 -->
+
+### Blocking through tech support
+
+In fall, 2015, I started receiving messages from people that suffered from new type of attack.
+
+This time, before account is blocked, victim received e-mails from Microsoft, containing 8-number code. The letters were sent from verifyme@microsoft.com and had valid DKIM-signature, which meant there were sent by Microsoft itself.
+
+![Skype Security Code Attack](https://habrastorage.org/getpro/habr/post_images/c3f/a93/594/c3fa93594abc59015f23a6324442f503.png)
+
+During our own investigation with my friends, we were able to spot the attacker. His announcements were everywhere at forums for young so-called hackers.
+
+Here's his info:
+
+* ICQ: 676061500
+* Skype: alaaasddsa1.as
+* Jabber: block_service@xmpp.jp
+
+Here's one of his announcement:
+
+![skype block service](https://habrastorage.org/getpro/habr/post_images/b38/74d/8a7/b3874d8a718696ddc3f6fadf8e80b688.png)
+
+In order to check account blocking process, I ordered complete disposal of my test account.
+For testing integrity, I did the following:
+
+* The account was registered to the fresh e-mail account, which was not linked to the account itself. There was not even slightest possibility to guess or find this e-mail account in open sources.
+* The password was set to high strength combination of numbers and letters in various case.
+* Only trusted accounts were added to contact list.
+* Account wasn't in any conference and practically wasn't used for messaging or calls.
+
+Throughout the blocking process I was monitoring the e-mail account and was authorized in desktop Skype client.
+
+In several hours after payment, I started receiving letters with Microsoft Security Code, just as on screenshots above.
+
+I received total of 24 letters in 10 hours. Leaping ahead, let me tell you that attacker successfully guessed the confirmation code.
+
+Here's all secret codes that I received in time of attack, with timestamp of receiving the e-mails.
+We can see here, that sending was performed with short bursts in few minutes.
+```
+Microsoft Support Code: 41917837 Fri, 26 Feb 2016 04:25:54 -0800 (PST)
+Microsoft Support Code: 14793784 Fri, 26 Feb 2016 04:27:32 -0800 (PST)
+Microsoft Support Code: 58837293 Sat, 27 Feb 2016 03:29:18 -0800 (PST)
+Microsoft Support Code: 68871688 Sat, 27 Feb 2016 03:29:33 -0800 (PST)
+Microsoft Support Code: 38424446 Sat, 27 Feb 2016 03:30:33 -0800 (PST)
+Microsoft Support Code: 25068066 Sat, 27 Feb 2016 03:35:39 -0800 (PST)
+Microsoft Support Code: 27311897 Sat, 27 Feb 2016 03:58:58 -0800 (PST)
+Microsoft Support Code: 93194445 Sat, 27 Feb 2016 04:02:43 -0800 (PST)
+Microsoft Support Code: 32506812 Sat, 27 Feb 2016 04:03:36 -0800 (PST)
+Microsoft Support Code: 33627494 Sat, 27 Feb 2016 04:05:40 -0800 (PST)
+Microsoft Support Code: 98350414 Sat, 27 Feb 2016 09:00:03 -0800 (PST)
+Microsoft Support Code: 12437217 Sat, 27 Feb 2016 11:41:04 -0800 (PST)
+Microsoft Support Code: 42078695 Sat, 27 Feb 2016 11:42:45 -0800 (PST)
+Microsoft Support Code: 41321028 Sat, 27 Feb 2016 11:43:09 -0800 (PST)
+Microsoft Support Code: 44964659 Sat, 27 Feb 2016 11:43:19 -0800 (PST)
+Microsoft Support Code: 90692933 Sat, 27 Feb 2016 12:50:21 -0800 (PST)
+Microsoft Support Code: 23696204 Sat, 27 Feb 2016 12:55:18 -0800 (PST)
+Microsoft Support Code: 60212551 Sat, 27 Feb 2016 12:55:25 -0800 (PST)
+Microsoft Support Code: 81725942 Sat, 27 Feb 2016 12:58:04 -0800 (PST)
+Microsoft Support Code: 29172590 Sat, 27 Feb 2016 14:26:54 -0800 (PST)
+Microsoft Support Code: 28091548 Sat, 27 Feb 2016 14:30:38 -0800 (PST)
+Microsoft Support Code: 55969586 Sat, 27 Feb 2016 14:54:21 -0800 (PST)
+Microsoft Support Code: 12424717 Sat, 27 Feb 2016 14:57:59 -0800 (PST)
+Microsoft Support Code: 36300450 Sat, 27 Feb 2016 14:58:16 -0800 (PST)
+```
+
+After e-mails stopped, the private information (such as name, surname, sex) was deleted from account profile. The login was only one that remained. My main e-mail account on skype.com website was changed to deleted@skype.com. I was disconnected from desktop client.
+
+We had the following info at that time:
+
+* The attacker doesn't know the real e-mail address of account. Taking into consideration last attacks of hacking accounts with known e-mail address, we guessed the same method would be used.
+* The account password is complicated and we excluded the bruteforce.
+* There was no attempts of authorizing with unknown contacts. There also was no activity in Skype client. The attacker never been in contact with the victim.
+
+We couldn't understand the process of deleting the account. We couldn't find the form that would generate the e-mails with Microsoft Security Code. So the best option we had is to get some information from the hacker. Me and my friends continued to order attacks on test accounts and in one moment, the hacker sends us the screenshot as the confirmation that account has been deleted successfully. On this screenshot, the tech support confirms this information:
+
+![skype chat support]https://habrastorage.org/getpro/habr/post_images/fec/2ff/787/fec2ff787f245cd7203c7d585371b7a8.png
+
+That was Live Chat Support form, that can be accessed through the account with subscription. You can find it on skype.com website, going through troubleshoot master few times. If you always choose "problem is not solved" option, the last step would give you a confirmation window with live chat prompt.
+
+The chat is opened from https://sales.liveperson.net side domain. The information on the website states that this is side company, which offers tech support for your product.
+
+In conclusion, the attack process through live chat support seemed to be like:
+
+1. Attacker asks tech support to "delete my account accountname, because I made a new one."
+2. The tech support operator asks to confirm the rights to an account by telling the code that was sent to e-mail address which is connected to account. The operator doesn't mention the e-mail account itself but waits for the right code.
+3. Operator receives the right code and account is deleted. Also, operator agrees to send code few times and does nothing if the code is incorrect.
+
+Funny thing, the live support chat form receives the login which has been logged in on skype.com. So the operator, in theory, should see the login of the user he/she talks with. And the strange thing is that operator would accept any account named by anyone and start the procedure.
+
+At this moment we don't know for sure, how the attacker completes the deleting procedure.
+
+<!--
 ### Блокировка через техподдержку
 
 Осенью 2015 года мне стали писать люди, пострадавшие от нового вида атаки.
@@ -216,6 +307,7 @@ Microsoft Support Code: 36300450 Sat, 27 Feb 2016 14:58:16 -0800 (PST)
 Забавно, что в форму чата с поддержкой передается логин, под которым был авторизован клиент на skype.com. То есть оператор, в теории, должен видеть, с каким именно пользователем он общается. От того особенно странно, что можно назвать совершенно любой аккаунт для удаления и оператор послушно согласится начать процедуру удаления.
 
 В этот момент все еще неясно, как конкретно атакующий успешно завершает процедуру удаления.
+-->
 
 ### Hey, Microsoft!
 
