@@ -25,7 +25,7 @@ This post describes my fruitless effort to convince Microsoft employees that the
 
 ### About me
 
-I've been using Skype for 10 years. I used to be a Skype fan-boy. When jira.skype.com (Skype's public bug tracker) was still available, I've been trying to improve Skype and reporting bugs. 
+I've been using Skype for 10 years. I used to be a Skype fan-boy. When jira.skype.com (Skype's public bug tracker) was still available, I've been trying to improve Skype and reporting bugs.
 
 For instance, there was SCW-2778 Remote DoS exploit. This vulnerability allowed an adversary to crash a desktop version of Skype, and break the local history, so that the user had to clear it for Skype to work. Another example is SCW-3328 which allowed to remotely turn on your muted microphone during a call.
 
@@ -41,7 +41,7 @@ Vulnerabilities that allow an adversary block an arbitrary Skype account are pre
 
 I used to post a lot about Skype vulnerabilities, and some victims of the exploits contacted me, after finding me in google.
 
-I have seen various Skype account blocking techniques. I have tried to help people restore access to their accounts and plead Skype to do something about it. 
+I have seen various Skype account blocking techniques. I have tried to help people restore access to their accounts and plead Skype to do something about it.
 Mostly the accounts were blocked via mass abuse reports. It is a well-known technique that exists for many years. It is so old that it became a tool of children' subculture for fighting against each other in Skype. But something outrageous has happened in the last year, which I absolutely have to speak about.
 
 <!--- ### Хронология событий
@@ -50,13 +50,13 @@ Mostly the accounts were blocked via mass abuse reports. It is a well-known tech
 
 Раньше я много писал про уязвимости скайпа, и ко мне стали обращаться жертвы блокировок, которые находили меня через поиск.
 
-Я видел разные случаи блокировок Skype-аккаунтов. Пытался помочь людям восстановить доступ и умолял Skype сделать с этим хоть что-то. 
-Обычно это были блокировки через массовые жалобы. Это давно известный способ, который существует уже много лет. Он настолько старый, что стал частью детской субкультуры, ведущей войны друг с другом в Skype. Но за последний год случилось нечто вопиющее, о чем я не могу молчать. 
+Я видел разные случаи блокировок Skype-аккаунтов. Пытался помочь людям восстановить доступ и умолял Skype сделать с этим хоть что-то.
+Обычно это были блокировки через массовые жалобы. Это давно известный способ, который существует уже много лет. Он настолько старый, что стал частью детской субкультуры, ведущей войны друг с другом в Skype. Но за последний год случилось нечто вопиющее, о чем я не могу молчать.
 -->
 
 ### Technique 1 - mass abuse reports (classics)
 
-A Skype account is blocked if sufficiently many abuse reports about this account are sent by other Skype members. Presumably, sufficiently many means more than 20. 
+A Skype account is blocked if sufficiently many abuse reports about this account are sent by other Skype members. Presumably, sufficiently many means more than 20.
 In order to send a report you don't even need to add the target into contacts: it is possible to send a report from search results by clicking "Block -> report an abuse" <!--- check -->
 Thus the victim may stay completely unaware of all the reports being sent about him/her.
 
@@ -76,7 +76,7 @@ The majority of attacks is conducted via verbal duels in group calls. The aim is
 
 <!---### Способ 1 — абузы (классический)
 
-В Skype аккаунт блокируется автоматически, если на него поступило достаточное количество жалоб от других пользователей. Предположительно, более 20 штук. 
+В Skype аккаунт блокируется автоматически, если на него поступило достаточное количество жалоб от других пользователей. Предположительно, более 20 штук.
 Для того, чтобы отправить жалобу, не нужно даже добавлять аккаунт в контакт-лист, это можно сделать, найдя аккаунт через поиск и кликнув «заблокировать → сообщить о нарушении».
 Таким образом, жертва может не знать об отправленных в ее адрес жалобах.
 
@@ -105,9 +105,9 @@ Here is a video demonstrating such software in work. <!--- video --> It is a kin
 
 I personally know ~10 victims whose accounts were blocked this way. But all attempts to recover their accounts via Skype support result in a standard reply:
 
->I understand that your Skype account was blocked. I apologize for any inconvenience that this may have caused, but I will 
+>I understand that your Skype account was blocked. I apologize for any inconvenience that this may have caused, but I will
 >be more than happy to look into this for you.
->Our automatic systems detected that activities which are contrary to Skype’s Terms and Conditions have taken place via your 
+>Our automatic systems detected that activities which are contrary to Skype’s Terms and Conditions have taken place via your
 >Skype account. As a result, your account has been restricted and will remain restricted until further notice.
 
 Do you think this vulnerability is fixed by now? Of course it is not.
@@ -136,7 +136,7 @@ www.youtube.com/watch?v=zWhCcqTnjxw
 
 ![Skype Security Code Attack](https://habrastorage.org/getpro/habr/post_images/c3f/a93/594/c3fa93594abc59015f23a6324442f503.png)
 
-Проведя с друзьями собственное расследование, мы нашли исполнителя атаки. Его объявлениями были заполнены все форумы для малолетних кулхацкеров. 
+Проведя с друзьями собственное расследование, мы нашли исполнителя атаки. Его объявлениями были заполнены все форумы для малолетних кулхацкеров.
 
 Вот его реквизиты:
 
@@ -148,7 +148,7 @@ www.youtube.com/watch?v=zWhCcqTnjxw
 
 ![skype block service](https://habrastorage.org/getpro/habr/post_images/b38/74d/8a7/b3874d8a718696ddc3f6fadf8e80b688.png)
 
-Чтобы проверить, как происходит удаление, я заказал у него удаление моего тестового аккаунта. 
+Чтобы проверить, как происходит удаление, я заказал у него удаление моего тестового аккаунта.
 Для чистоты эксперимента были соблюдены такие условия:
 
 * Аккаунт был зарегистрирован на свежесозданный почтовый ящик, никак не связанный с аккаунтом. Угадать или найти почту от аккаунта в открытых источниках было невозможно.
@@ -158,7 +158,7 @@ www.youtube.com/watch?v=zWhCcqTnjxw
 
 На протяжении всего процесса удаления я мониторил почтовый ящик и был авторизован в десктопном Skype клиенте.
 
-Через несколько часов после оплаты на почту посыпались письма с Microsoft Security Code, как на скриншоте выше. 
+Через несколько часов после оплаты на почту посыпались письма с Microsoft Security Code, как на скриншоте выше.
 
 За 10 часов пришло 24 письма с кодами. Забегая вперед скажу, что атакующий в итоге угадывал код подтверждения.
 
@@ -203,7 +203,7 @@ Microsoft Support Code: 36300450 Sat, 27 Feb 2016 14:58:16 -0800 (PST)
 
 ![skype chat support]https://habrastorage.org/getpro/habr/post_images/fec/2ff/787/fec2ff787f245cd7203c7d585371b7a8.png
 
-Это была форма Live Chat Support, доступная аккаунтам с подпиской. Найти ее можно на сайте skype.com, пройдя несколько раз мастер решения проблем. Если выбирать все время «проблема не решена», то на последнем шаге предлагается открыть чат. 
+Это была форма Live Chat Support, доступная аккаунтам с подпиской. Найти ее можно на сайте skype.com, пройдя несколько раз мастер решения проблем. Если выбирать все время «проблема не решена», то на последнем шаге предлагается открыть чат.
 
 Чат открывался со стороннего домена https://sales.liveperson.net. Из описания на сайте видно, что это сторонняя компания, предлагающая услуги поддержки для вашего продукта.
 
@@ -213,13 +213,39 @@ Microsoft Support Code: 36300450 Sat, 27 Feb 2016 14:58:16 -0800 (PST)
 2. Оператор просит подтвердить владение аккаунтом, назвав код, который был выслан на почту, привязанную к аккаунту. При этом оператор не называет почты, а только ожидает правильный код.
 3. После того, как оператор получит правильный код, аккаунт удаляется. При этом оператор соглашается выслать код повторно несколько раз и не возражает, если названный ему код не подходит.
 
-Забавно, что в форму чата с поддержкой передается логин, под которым был авторизован клиент на skype.com. То есть оператор, в теории, должен видеть, с каким именно пользователем он общается. От того особенно странно, что можно назвать совершенно любой аккаунт для удаления и оператор послушно согласится начать процедуру удаления. 
+Забавно, что в форму чата с поддержкой передается логин, под которым был авторизован клиент на skype.com. То есть оператор, в теории, должен видеть, с каким именно пользователем он общается. От того особенно странно, что можно назвать совершенно любой аккаунт для удаления и оператор послушно согласится начать процедуру удаления.
 
-В этот момент все еще неясно, как конкретно атакующий успешно завершает процедуру удаления. 
+В этот момент все еще неясно, как конкретно атакующий успешно завершает процедуру удаления.
 
-### Эй, Microsoft!
+### Hey, Microsoft!
 
-Уязвимость очевидна. Бежим кричать тревогу в Skype. 
+It is obvious that the vulnerability exists. Let's report the problem to Skype.
+Such an important vulnerability should be fixed ASAP, shouldn't it ?
+
+Due to the fact that Skype doesn't have any public contacts for vulnerability reports, I have tried to write on the forum: community.skype.com/t5/Security-Privacy-Trust-and/Vulnerability-allows-to-permanently-delete-any-skype-account-by/td-p/4222445
+There were no reaction, but there emerged another victims of this attack.
+
+With the help of my friends I was able contact directly with Microsoft employees. I reported them all details about the vulnerability, attached screenshots and code listings. I was then assured that an internal investigation was started. That is Microsoft - a serious company.
+
+However next moth another victims of the same vulnerability contacted me again. Microsoft employees reported that investigation hasn't been finished yet.
+
+I have tried to report to secure@microsoft.com. It is special email for prompt reaction on critical vulnerabilities. It guarantees 24 hours reply. In the report I explain all the details of account deletion with attached screenshots.
+
+The answer of Microsoft Security Response Center:
+![skype Microsoft Security Response Center](https://habrastorage.org/getpro/habr/post_images/f3d/4ae/d26/f3d4aed268ea20caf35fe040da0a4806.png)
+
+I kept asking about Microsft internal investigation from their employees. The answer didn't change. It was constantly no. The story was the same for SIX MONTH.
+
+It was known for sure that hacker provides operator with the code. Sometimes with the second or the third trial. It is a shame but I still don't know all the details of this process. Firstly I have thought that the code is time dependent and thus hacker tries to request as much codes per minute as possible (it could be seen from email timestamps). However I couldn't find a relationship between code and time. It is possible that liveperson.net service was vulnerable.
+
+Recently Skype refused liveperson.net service and chatting with support agent now is on microsoft.com domain.
+The procedure of Skype-account deletion cannot be handled by operator anymore. It should be done manually using web-form.
+
+One can think that the vulnerability was closed. It isn't so.
+
+<!-- ### Эй, Microsoft!
+
+Уязвимость очевидна. Бежим кричать тревогу в Skype.
 Ведь такую серьезную уязвимость обязательно должны исправить, не так ли?
 
 Так как у Skype нет каких-то публичных контактов для сообщений об уязвимостях, пробую написать на форум:
@@ -238,17 +264,17 @@ community.skype.com/t5/Security-Privacy-Trust-and/Vulnerability-allows-to-perman
 Вольный перевод: это не уязвимость, вы просто дурак.
 
 Раз в неделю я спрашивал, как продвигается расследование у ребят из Microsoft, на что получал ответ, что результата нет.
-Так продолжалось около ШЕСТИ МЕСЯЦЕВ!!!. 
+Так продолжалось около ШЕСТИ МЕСЯЦЕВ!!!.
 
-Было достоверно известно, что атакующий называет правильный код оператору. Иногда со второй-третьей попытки. Стыдно признаться, но мне так и не удалось выяснить как, именно это происходило. Сперва мне казалось, что код генерируется от времени, и поэтому атакующий пытается запросить как можно больше кодов в течение одной минуты, что видно по времени получения писем, но я не смог найти зависимости кода от времени. Возможно, был уязвим сам сервис чатов liveperson.net. 
+Было достоверно известно, что атакующий называет правильный код оператору. Иногда со второй-третьей попытки. Стыдно признаться, но мне так и не удалось выяснить как, именно это происходило. Сперва мне казалось, что код генерируется от времени, и поэтому атакующий пытается запросить как можно больше кодов в течение одной минуты, что видно по времени получения писем, но я не смог найти зависимости кода от времени. Возможно, был уязвим сам сервис чатов liveperson.net.
 
 Недавно Skype отказались от сервиса liveperson.net, и чат с агентом поддержки происходит на домене microsoft.com. Процедура удаления скайп-аккаунта теперь недоступна оператору тех. поддержки, и ее нужно выполнять самостоятельно через форму.
 
-Наверное, тут вы подумаете, что уязвимость закрыта. Как бы не так.
+Наверное, тут вы подумаете, что уязвимость закрыта. Как бы не так. -->
 
 ### Experiment: I'll die in your sins
 
-Aforementioned Skype account deleter's victims contacted me one year after. Emails with Security Code were not sent this time, a new way was apparently found. 
+Aforementioned Skype account deleter's victims contacted me one year after. Emails with Security Code were not sent this time, a new way was apparently found.
 
 Frankly speaking, I'd been fed up with all of this. I'd been tired to implore, eat the dust and beg for fixing the holes during so many months.
 
