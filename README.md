@@ -4,33 +4,33 @@
 
 ### In a nutshell: they don't
 
-This post describes my fruitless effort to convience Microsoft employees that their service is vulnerable, and humiliation one has to go through should one's account be blocked by a hacker. This is a story of ignorance, pain and despair.
+This post describes my fruitless effort to convince Microsoft employees that their service is vulnerable, and the humiliation one has to go through should one's account be blocked by a hacker. This is a story of ignorance, pain and despair.
 
 #### TL;DR
 
-* *Anyone* can block your account permanently and you can't do anything about it. The only thing that's a hacker needs to know is your Skype login. In most cases Skype will refuse to unblock your account. Microsoft have known about the probem for years.
+* *Anyone* can block your account permanently and you can't do anything about it. The only thing that a hacker needs to know is your Skype login. In most cases Skype support will refuse to unblock your account. Microsoft have known about the problem for years.
 
-* 8-digit  authentication code (Microsoft Security Code) generation algorithm is vulnerable. These codes are used for password restore and the hacker can just guess the code without having access to your email account.
+* 8-digit authentication code (Microsoft Security Code) generation algorithm is vulnerable. These codes are used for password restore, and the hacker can just guess the code without an access to your email account.
 
-* Skype tech support is vulnerable to social engineering and Microsoft is perfectly OK with that.
+* Skype tech support is vulnerable to social engineering, and Microsoft is perfectly OK with that.
 
-* Skype tech support doesn't even know what's going on with your account and why it was blocked in the first place. Regardless of the reason you'll get a standard response that your account was blocked for "violating terms and conditions" even if it was you who clicked "Block account" button in their web interface.
+* Skype tech support doesn't even know what's going on with your account and why it has been blocked in the first place. Regardless of the reason you'll get a standard response that your account was blocked for "violating the terms and conditions" even if it was you who clicked "Block account" button in the web interface.
 
-* Skype still disclosures your public and private IP addresses, in some cases it's possible to disclosure other contacts that are using the same network (e. g. your family members using same Wi-Fi)
+* Skype still discloses your public and private IP addresses. In some cases it's possible to obtain other Skype IDs that are using the same network (e. g. your family members using the same Wi-Fi)
 
-* A hacker can hide an active Skype session from the session list (it's available via /showplaces command) using old SDK versions. That allows to stealthly read your messages if one have managed to obtain your password.
+* A hacker can hide an active Skype session from the session list (which is available via /showplaces command) using old SDK versions. This allows to stealthily read your messages if one has managed to obtain your password.
 
 ### About me
 
-I've been using Skype for 10 years. I'm used to be a Skype fanboy. When jira.skype.com (Skype's public bug tracker) was still available, I've been trying to improve skype and reporting bugs. 
+I've been using Skype for 10 years. I used to be a Skype fan-boy. When jira.skype.com (Skype's public bug tracker) was still available, I've been trying to improve Skype and reporting bugs. 
 
-SCW-2778 Remote DoS exploit for example. That vulnerability allowed to crash desktop version of Skype, so one couldn't without clearing history. Or SCW-3328 that allowed to remotely turn on your muted microphone during the call.
+For instance, there was SCW-2778 Remote DoS exploit. This vulnerability allowed an adversary to crash a desktop version of Skype, and break the local history, so that the user had to clear it for Skype to work. Another example is SCW-3328 which allowed to remotely turn on your muted microphone during a call.
 
-Even at that time I was worried by Skype's approach to fixing bugs. I had to literally beg developers to fix a problem that was there for years.
+Even at that time I was worried by Skype's approach to fixing bugs. I had to literally beg the developers to fix a problem that was there for years.
 
-I was using all Skype's products, developer instruments (Skype4COM, SkypeKit), premium-subscriptions, Skype For Business. I have created bots, custom emoticon generation service, etc.
+I was using all Skype's products, developer instruments (Skype4COM, SkypeKit), premium-subscriptions, Skype For Business. I have created bots, a custom emoticon generation service, etc.
 
-But today I sincerely hate Skype. It's a horrible service drown in bureucracy and ignorance of employees, that ignores the real problems and adds 3D emoticons as a major feature. Today Skype is not only insecure, but hazardous to its users, since security procedures are not only inefficient, they are working against users.
+But today I sincerely hate Skype. It's a horrible service drowning in bureaucracy and ignorance of employees, that ignores real problems and adds 3D emoticons as a major feature. Today Skype is not only insecure, but hazardous to its users, since security procedures are not only inefficient, they are working against users.
 
 ### Хронология событий
 
