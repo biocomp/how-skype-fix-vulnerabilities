@@ -1,7 +1,9 @@
 
-# <b>Do not publish this</b></font> article anywhere. Translation is not finished yet, screenshot's not translated and text is not reviewed.</h2>
+# <b>Do not publish this</b> article anywhere.
+Translation is not finished yet, screenshot's not translated and text is not reviewed. I will publish when translation is finished and change this badge.
    
-# Не публикуйте этот текст нигде. Перевод еще не закончен, не переведены скришоты и текст не проверялся. Я сам опублкую когда будет готово и размещу ссылку на актуальную версию здесь.   
+# Не публикуйте этот текст нигде.
+Перевод еще не закончен, не переведены скришоты и текст не проверялся. Я сам опублкую когда будет готово и размещу ссылку на актуальную версию здесь.
 
 
 # Message to Contributors/Сообщение тем кто хочет помочь
