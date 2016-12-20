@@ -257,7 +257,7 @@ Unfortunately Skype is big bureaucratic machine, which is not able to detect and
 
 In this article I have described only problems which I know. I can assume that there exist much more exploits, which are in use, but I have no clue about them.
 
-It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. ![Uber](http://www.foxnews.com/tech/2016/12/13/uber-allegedly-spied-on-users-including-celebrities-like-beyonc.html).
+It is essential to understand that it is not ONLY Skype problem. This issues could be applied to ANY messenger with centralized control, where all security is based only on trust and authority of administration e.g. [Uber](http://www.foxnews.com/tech/2016/12/13/uber-allegedly-spied-on-users-including-celebrities-like-beyonc.html).
 If you think that your lovely messenger is much more secure than Skype, just because the employees are "good guys", you are just fooling yourself.
 People who have infinite access to the user information, could be vulnerable for different kind of pressure, blackmailing or deception. No one is ready to go to the jail or even to give their lives for the safety of users messages. As far as unlimited access exists, there will always be temptation to use this access wrongfully.
 
