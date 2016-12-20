@@ -252,7 +252,7 @@ Aforementioned Skype account deleter's victims contacted me one year after. Emai
 
 Frankly speaking, I'd been fed up with all of this. I'd been tired to implore, eat the dust and beg for fixing the holes during so many months.
 
-As I wrote before, I'd been using Skype for about ten years. My primary account **zhovner** is quite the same old. I felt that it's unfair to witness to other people's sufferring not having walked in the same shoes. Then I decided to conduct an experiment and offer the deletion of my own account.
+As I wrote before, I'd been using Skype for about ten years. My primary account **zhovner** is quite the same old. I felt that it's unfair to witness to other people's sufferring not having walked in the same shoes. Then I decided to conduct an experiment and order the deletion of my own account.
 
 ![offering the deletion](https://habrastorage.org/files/eef/59b/d97/eef59bd9743046ca9037adae00ee7e23.png)
 
