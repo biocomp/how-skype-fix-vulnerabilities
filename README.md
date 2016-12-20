@@ -32,7 +32,16 @@ I was using all Skype's products, developer instruments (Skype4COM, SkypeKit), p
 
 But today I sincerely hate Skype. It's a horrible service drowning in bureaucracy and ignorance of employees, that ignores real problems and adds 3D emoticons as a major feature. Today Skype is not only insecure, but hazardous to its users, since security procedures are not only inefficient, they are working against users.
 
-### Хронология событий
+### Chronology
+
+Vulnerabilities that allow an adversary block an arbitrary Skype account are present for a few years. There is more than one, and some of them are actively exploited in the wild. Moreover, account blocking is provided as a service.
+
+I used to post a lot about Skype vulnerabilities, and some victims of the exploits contacted me, after finding me in google.
+
+I have seen various Skype account blocking techniques. I have tried to help people restore access to their accounts and plead Skype to do something about it. 
+Mostly the accounts were blocked via mass abuse reports. It is a well-known technique that exists for many years. It is so old that it became a tool of children' subculture for fighting against each other in Skype. But something outrageous has happened in the last year, which I absolutely have to speak about.
+
+<!--- ### Хронология событий
 
 Уже на протяжении нескольких лет существуют уязвимости, приводящие к блокировке произвольного Skype-аккаунта. Их несколько, ими активно пользуются злоумышленники и предоставляют в качестве сервиса.
 
@@ -40,8 +49,29 @@ But today I sincerely hate Skype. It's a horrible service drowning in bureaucrac
 
 Я видел разные случаи блокировок Skype-аккаунтов. Пытался помочь людям восстановить доступ и умолял Skype сделать с этим хоть что-то. 
 Обычно это были блокировки через массовые жалобы. Это давно известный способ, который существует уже много лет. Он настолько старый, что стал частью детской субкультуры, ведущей войны друг с другом в Skype. Но за последний год случилось нечто вопиющее, о чем я не могу молчать. 
+-->
 
-### Способ 1 — абузы (классический)
+### Technique 1 - mass abuse reports (classics)
+
+A Skype account is blocked if sufficiently many abuse reports about this account are sent by other Skype members. Presumably, sufficiently many means more than 20. 
+In order to send a report you don't even need to add the target into contacts: it is possible to send a report from search results by clicking "Block -> report an abuse" <!--- check -->
+Thus the victim may stay completely unaware of all the reports being sent about him/her.
+
+This technique exists for many years. It's been reported on Habrahabr <!--- something English? -->, even kids know about it: they unite into groups for coordinated mass reporting.
+There is a list of VK groups created for that purpose (obtained by a quick search):
+vk.com/block_pidaram_skype
+vk.com/skype_delete
+vk.com/blacklistskype
+vk.com/blockskyp
+vk.com/eds_snos
+vk.com/club58649499
+vk.com/club49404483
+
+Similar groups exist within Skype itself. There is a specific subculture <!--- are we sure it's a subculture? --> of abusers, mostly composed of 12-19 years olds, uniting into clans. The main purpose of their actions is to hurt a randomly chosen victim as hard as possible.
+
+The majority of attacks is conducted via verbal duels in group calls. The aim is to humiliate a person the more painfully the better, and to record it on video.
+
+<!---### Способ 1 — абузы (классический)
 
 В Skype аккаунт блокируется автоматически, если на него поступило достаточное количество жалоб от других пользователей. Предположительно, более 20 штук. 
 Для того, чтобы отправить жалобу, не нужно даже добавлять аккаунт в контакт-лист, это можно сделать, найдя аккаунт через поиск и кликнув «заблокировать → сообщить о нарушении».
@@ -59,9 +89,27 @@ vk.com/club49404483
 
 Таких сообществ много и в самом Skype. Существует даже отдельная субкультура «вкачивателей». Обычно это дети 12-19 лет, которые объединяются в кланы. Суть их деятельности состоит в максимальном нанесении вреда оппоненту, который выбирается случайным образом.
 
-Основные баталии происходят в виде словесных дуэлей в групповых звонках. Смысл в том, чтобы максимально унизить собеседника за короткий период времени и зафиксировать это на видео.
+Основные баталии происходят в виде словесных дуэлей в групповых звонках. Смысл в том, чтобы максимально унизить собеседника за короткий период времени и зафиксировать это на видео.-->
 
-#### Видеозаписи дуэлей (Осторожно: мат и крики)
+#### Duel recordings (Warning: shouting and swearing)
+www.youtube.com/watch?v=F3mDFk5m_Hs
+www.youtube.com/watch?v=cwNixaAML4I
+www.youtube.com/watch?v=zWhCcqTnjxw
+Skype account blocking: www.youtube.com/watch?v=4vhy-J-kQtk
+
+Some clans of these abusers publish their own software designed for the malicious activity of mass abuse reporting.
+Here is a video demonstrating such software in work. <!--- video --> It is a kind of a botnet resulting in contact-list voluntarily sending reports for selected accounts. Remember that it is not necessary to add a victim into your own contact list, which means that you can be reported by a hundred of school kids you never talked to, and you'll never know.
+
+I personally know ~10 victims whose accounts were blocked this way. But all attempts to recover their accounts via Skype support result in a standard reply:
+
+>I understand that your Skype account was blocked. I apologize for any inconvenience that this may have caused, but I will 
+>be more than happy to look into this for you.
+>Our automatic systems detected that activities which are contrary to Skype’s Terms and Conditions have taken place via your 
+>Skype account. As a result, your account has been restricted and will remain restricted until further notice.
+
+Do you think this vulnerability is fixed by now? Of course it is not.
+
+<!--- #### Видеозаписи дуэлей (Осторожно: мат и крики)
 www.youtube.com/watch?v=F3mDFk5m_Hs
 www.youtube.com/watch?v=cwNixaAML4I
 www.youtube.com/watch?v=zWhCcqTnjxw
@@ -77,7 +125,7 @@ www.youtube.com/watch?v=zWhCcqTnjxw
 >Our automatic systems detected that activities which are contrary to Skype’s Terms and Conditions have taken place via your >Skype account. As a result, your account has been restricted and will remain restricted until further notice.
 
 Угадайте, исправлена ли эта уязвимость на текущий момент? Конечно же нет!
-
+-->
 ### Блокировка через техподдержку
 
 Осенью 2015 года мне стали писать люди, пострадавшие от нового вида атаки.
