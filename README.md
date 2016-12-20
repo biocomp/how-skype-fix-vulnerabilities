@@ -34,12 +34,12 @@ But today I sincerely hate Skype. It's a horrible service drowning in bureaucrac
 
 ### Chronology
 
-Vulnerabilities that allow an adversary to block an arbitrary Skype account are present for a few years. There is more than one, and some of them are actively exploited in the wild. Moreover, target's account blocking is provided as a service.
+Vulnerabilities that allow an adversary block an arbitrary Skype account are present for a few years. There is more than one, and some of them are actively exploited in the wild. Moreover, account blocking is provided as a service.
 
-I used to post a lot about Skype vulnerabilities, and some victims of the exploits contacted me, after some googling.
+I used to post a lot about Skype vulnerabilities, and some victims of the exploits contacted me, after finding me in google.
 
-I have seen various Skype account blocking techniques. I have tried to help people restore the access to their accounts and plead Skype to do something about it. 
-Mostly the accounts were blocked via mass reports. It is a well-known technique that exists for many years. It is so old that it became a tool of children' subculture for fighting against each other in Skype. But something outrageous has happened in the last year, which I absolutely have to speak about.
+I have seen various Skype account blocking techniques. I have tried to help people restore access to their accounts and plead Skype to do something about it. 
+Mostly the accounts were blocked via mass abuse reports. It is a well-known technique that exists for many years. It is so old that it became a tool of children' subculture for fighting against each other in Skype. But something outrageous has happened in the last year, which I absolutely have to speak about.
 
 <!--- ### Хронология событий
 
@@ -51,13 +51,13 @@ Mostly the accounts were blocked via mass reports. It is a well-known technique 
 Обычно это были блокировки через массовые жалобы. Это давно известный способ, который существует уже много лет. Он настолько старый, что стал частью детской субкультуры, ведущей войны друг с другом в Skype. Но за последний год случилось нечто вопиющее, о чем я не могу молчать. 
 -->
 
-### Technique 1 - mass reports (classics)
+### Technique 1 - mass abuse reports (classics)
 
 A Skype account is blocked if sufficiently many abuse reports about this account are sent by other Skype members. Presumably, sufficiently many means more than 20. 
-In order to send a report you don't even need to add the target into contacts: it is possible to send a report from a search result by clicking "Block -> report an abuse" <!--- check -->
+In order to send a report you don't even need to add the target into contacts: it is possible to send a report from search results by clicking "Block -> report an abuse" <!--- check -->
 Thus the victim may stay completely unaware of all the reports being sent about him/her.
 
-This technique is here for many years. It's been reported on Habrahabr <!--- something English? -->, even kids know about it: they unite into groups for coordinated mass reporting.
+This technique exists for many years. It's been reported on Habrahabr <!--- something English? -->, even kids know about it: they unite into groups for coordinated mass reporting.
 There is a list of VK groups created for that purpose (obtained by a quick search):
 vk.com/block_pidaram_skype
 vk.com/skype_delete
@@ -97,10 +97,10 @@ www.youtube.com/watch?v=cwNixaAML4I
 www.youtube.com/watch?v=zWhCcqTnjxw
 Skype account blocking: www.youtube.com/watch?v=4vhy-J-kQtk
 
-Some clans of these abusers publish their own software designed for the malicious activity.
-Here is a video demonstrating such software in work. <!--- video --> It is a kind of a botnet built from a contact-list which voluntarily reports selected accounts. Remember that it is not necessary to add a victim into your own contact list. It means that you can be reported by a hundred of school kids you never talked to, and you'll never know.
+Some clans of these abusers publish their own software designed for the malicious activity of mass abuse reporting.
+Here is a video demonstrating such software in work. <!--- video --> It is a kind of a botnet resulting in contact-list voluntarily sending reports for selected accounts. Remember that it is not necessary to add a victim into your own contact list, which means that you can be reported by a hundred of school kids you never talked to, and you'll never know.
 
-I know personally about ten victims whose accounts were blocked this way. But all attempts to contact a Skype support result in a standard reply:
+I personally know ~10 victims whose accounts were blocked this way. But all attempts to recover their accounts via Skype support result in a standard reply:
 
 >I understand that your Skype account was blocked. I apologize for any inconvenience that this may have caused, but I will 
 >be more than happy to look into this for you.
